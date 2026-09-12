@@ -306,7 +306,7 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
    ========================================================================== */
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: clamp(1.25rem, 1rem + 1vw, 1.75rem);
 }
 .service-card { display: flex; flex-direction: column; gap: 1rem; }
@@ -495,7 +495,6 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
   .nav-toggle { display: flex; }
   .header-actions .btn-sm span { display: none; }
 
-  .card-grid { grid-template-columns: 1fr 1fr; }
   .dish-grid { grid-template-columns: 1fr; max-width: 26rem; margin-inline: auto; }
   .card-grid { grid-template-columns: 1fr; max-width: 26rem; margin-inline: auto; }
   .review-grid { grid-template-columns: 1fr; max-width: 26rem; margin-inline: auto; }
